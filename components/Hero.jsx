@@ -13,7 +13,7 @@ const Hero = () => {
         priority
       />
       <div className="hero-text">
-        <h1>Hey, I'm Eric Frey 👋</h1>
+        <h1>Hey, I'm Eric Frey 🤠</h1>
         <p>I'm a software developer based in Nashville, Tennessee.</p>
         <div className="social-icons">
           <a

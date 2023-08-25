@@ -12,6 +12,7 @@ export default function Document() {
           crossorigin="anonymous"
           referrerpolicy="no-referrer"
         />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
       </Head>
       <body>
         <Main />

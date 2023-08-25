@@ -7,7 +7,11 @@ const Navbar = () => {
       <div className="logo">
         <Link href="/">Eric's Portfolio</Link>
       </div>
-      <a href="" className="cta-btn">
+      <a
+        href="https://www.canva.com/design/DAFU7pzn9IA/geB-AZ8qfF6QD8lW0ucS7g/view?website#4"
+        className="cta-btn"
+        target="_blank"
+      >
         Resume
       </a>
     </div>

@@ -4,18 +4,10 @@ const Footer = () => {
     <>
       <hr />
       <div className="footer-container">
-        <p>© {new Date().getFullYear()} Eric's Portfolio</p>
+        <p>© {new Date().getFullYear()} Eric Frey</p>
         <div className="social_icons">
           <a
-            href="#"
-            aria-label="Twitter"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="#"
+            href="https://github.com/ericlfrey"
             aria-label="GitHub"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,12 +15,20 @@ const Footer = () => {
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/ericlfrey/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/eric.frey.music.maker/"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
       </div>
