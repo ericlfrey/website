@@ -15,7 +15,7 @@ export const projectData = [
         description: 'The Soap Dish is a single page CRUD app built with a React/NextJS front end, and Python/Django back end that allows soapers to create, share, and save favorite soap recipes. TSD uses Bootstrap for both desktop and mobile responsive design.',
         gitHubLink: "https://github.com/ericlfrey/soap-dish-client#readme",
         loomLink: 'https://www.loom.com/share/25365a2897584b56932bf286f0173da8?sid=7f3c22d6-ed7a-485e-8c05-5ce01badef3f',
-        deployedLink: '#',
+        deployedLink: 'http://soap-dish.ericlfrey.com/',
         logoImg: '/images/sd-logo.png'
     },
     {
