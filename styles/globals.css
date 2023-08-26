@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
   background-color: #3e3e3c;
   color: #DADADB;
-  width: 900px;
+  width: 70%;
   margin: 0 auto;
   padding: 0 0;
 }
@@ -46,7 +46,7 @@ li {
 }
 
 .cta-btn {
-  background-color: #85bb65;
+  background-color: #2fac66;
   color: #1D1E20;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -169,6 +169,7 @@ hr {
 /* About */
 .about-container {
   padding: 2rem 0;
+  max-width: 900px;
 }
 
 .about-container h2 {
@@ -206,13 +207,13 @@ hr {
   /* border: 2px solid #DADADB; */
   /* filter: grayscale(100%); */
   transition: all 0.5s ease-in-out;
-  cursor: cell;
+  /* cursor: cell; */
 }
 
-.about-container .flex-about .about-img .profile-img:hover {
+/* .about-container .flex-about .about-img .profile-img:hover {
   filter: grayscale(0%);
   transform: scale(1.02);
-}
+} */
 
 @media screen and (max-width: 768px) {
   .about-container .flex-about {
@@ -318,16 +319,25 @@ hr {
 }
 
 .project-card {
-  border: 1px solid #e6e6e6;
-  padding: 20px;
+  margin: 0 20px;
   border-radius: 5px;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  background-color: #1D1E20;
+}
+
+.project-card-img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .project-card .project-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 20px;
 }
 
 .project-card .folder-icon {
@@ -350,15 +360,32 @@ hr {
   color: #FFCC17;
 }
 
-.project-card .project h3 {
+.project-card h3 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 1em;
+  padding: .5rem 0 0 .7rem;
 }
 
-.project-card .project p {
+.project-card p {
   font-size: 16px;
-  margin-bottom: 10px;
   color: #b3b3b3;
+  padding: 0 1rem;
+}
+
+.project-card-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
+  margin-bottom: .5rem;
+}
+
+.project-card-links a {
+  cursor: pointer;
+}
+
+.project-description {
+  height: 250px;
+  overflow-y: auto;
 }
 
 /* contact */

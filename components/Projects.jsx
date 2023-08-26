@@ -1,4 +1,5 @@
 import { projectData } from '../pages/api/data';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
@@ -7,18 +8,15 @@ const Projects = () => {
       <div className="projects-grid">
         {projectData &&
           projectData.map(project => (
-            <div className="project-card" key={project.id}>
-              <div className="project-header">
-                <i className="fa-regular fa-folder-open folder-icon"></i>
-                <div className="small-icons">
-                  <a href={project.gitHubLink}>
-                    <i className="fa-brands fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-            </div>
+            <ProjectCard
+              key={project.id}
+              title={project.title}
+              description={project.description}
+              logoImg={project.logoImg}
+              loomLink={project.loomLink}
+              gitHubLink={project.gitHubLink}
+              deployedLink={project.deployedLink}
+            />
           ))}
       </div>
     </div>

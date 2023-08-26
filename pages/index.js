@@ -18,8 +18,8 @@ export default function Home() {
       <div>
         <Hero />
         <About />
-        <Skills />
         <Projects />
+        <Skills />
         <Contact />
       </div></>
   )

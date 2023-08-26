@@ -24,7 +24,7 @@ const About = () => {
               <a
                 href="https://github.com/ericlfrey"
                 target="_blank"
-                style={{ color: '#427aa1' }}
+                style={{ color: '#2fac66' }}
               >
                 LinkedIn
               </a>{' '}
