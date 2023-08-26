@@ -46,7 +46,7 @@ const About = () => {
             src="/images/bass.jpeg"
             className="profile-img"
             width={300}
-            height={500}
+            height={100}
             alt="Rubber Duck and Friends"
           />
         </div>
