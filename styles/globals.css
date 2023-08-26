@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #3e3e3c;
+  background-color: #262627;
   color: #DADADB;
   width: 70%;
   margin: 0 auto;
@@ -37,7 +37,7 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  background-color: #3e3e3c;
+  background-color: #262627;
 }
 
 .nav-container .logo {
@@ -61,6 +61,10 @@ li {
   background-color: #427aa1;
 }
 
+.logo-img {
+  border-radius: 50%;
+}
+
 /* Footer */
 hr {
   border: none;
@@ -81,7 +85,7 @@ hr {
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  background-color: #3e3e3c;
+  background-color: #262627;
 }
 
 .footer-container p {
@@ -118,8 +122,8 @@ hr {
 }
 
 .hero-container .profile-img {
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */
   border-radius: 50%;
   margin: 0 auto;
   object-fit: cover;
@@ -245,7 +249,7 @@ hr {
 }
 
 .skills-container .grid-skills .skill-card {
-  background-color: #DADADB;
+  background-color: #6c6c6c;
   color: #1D1E20;
   display: flex;
   justify-content: center;
@@ -255,10 +259,9 @@ hr {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease-in-out;
-  cursor: context-menu;
 }
 
-.skills-container .grid-skills i {
+/* .skills-container .grid-skills i {
   font-size: 1.5rem;
 }
 
@@ -284,7 +287,7 @@ hr {
 
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
-}
+} */
 
 /* Projects */
 .projects-container {
@@ -368,6 +371,16 @@ hr {
   justify-content: space-around;
   margin-top: auto;
   margin-bottom: .5rem;
+  font-size: 1rem;
+}
+
+.project-card-links i {
+  transition: all 0.5s ease-in-out;
+  color: #9B9C9D;
+}
+
+.project-card-links i:hover {
+  color: #DADADB;
 }
 
 .project-card-links a {

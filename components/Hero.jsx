@@ -7,14 +7,15 @@ const Hero = () => {
       <Image
         src="/images/profile.jpg"
         className="profile-img"
-        width={300}
-        height={300}
-        alt="Joe's personal headshot"
+        width={400}
+        height={400}
+        alt="eric personal headshot"
         priority
       />
       <div className="hero-text">
-        <h1>Hey, I'm Eric Frey 🤠</h1>
+        <h1>Howdy! I'm Eric Frey</h1>
         <p>I'm a software developer based in Nashville, Tennessee.</p>
+        <p>Welcome to my portfolio site!</p>
         <div className="social-icons">
           <a
             href="https://github.com/ericlfrey"

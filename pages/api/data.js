@@ -28,3 +28,46 @@ export const projectData = [
         logoImg: '/images/hf-logo.png'
     },
 ];
+
+export const skillsData = [
+    {
+        id: 1,
+        title: 'Next.js',
+        link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg'
+    },
+    {
+        id: 2,
+        title: 'React',
+        link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
+    },
+    {
+        id: 3,
+        title: 'Python',
+        link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
+    },
+    {
+        id: 4,
+        title: 'django',
+        link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg'
+    },
+    {
+        id: 5,
+        title: 'HTML',
+        link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
+    },
+    {
+        id: 6,
+        title: 'CSS',
+        link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
+    },
+    {
+        id: 7,
+        title: 'JavaScript',
+        link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
+    },
+    {
+        id: 8,
+        title: 'Bootstrap',
+        link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg'
+    }
+];
