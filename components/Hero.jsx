@@ -7,8 +7,8 @@ const Hero = () => {
       <Image
         src="/images/profile.jpg"
         className="profile-img"
-        width={400}
-        height={400}
+        width={300}
+        height={300}
         alt="eric personal headshot"
         priority
       />
