@@ -4,13 +4,15 @@ const Contact = () => {
     <div className="contact-container">
       <h2>Get In Touch</h2>
       <p>
-        If you want us to work together, have any questions or want me to speak
-        at your event, my inbox is always open. Whether I just want to say hi,
-        I'll try my best to get back to you! Cheers!
+        If you want to collaborate, have any questions, or just want to say
+        hello feel free to reach out.
       </p>
-      <a href="mailto:ericlfrey@gmail.com" className="cta-btn">
-        Say Hello
+      <p>No spamming, please. Cheers!</p>
+      <br />
+      <a href="mailto:ericlfrey@gmail.com">
+        <p>EricLFrey@gmail.com</p>
       </a>
+      <p>615-510-7137</p>
     </div>
   );
 };
