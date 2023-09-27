@@ -12,7 +12,6 @@ const Contact = () => {
       <a href="mailto:ericlfrey@gmail.com">
         <p>EricLFrey@gmail.com</p>
       </a>
-      <p>615-510-7137</p>
     </div>
   );
 };
