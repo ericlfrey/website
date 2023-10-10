@@ -29,7 +29,6 @@ export default async function handler() {
           className="profile-img"
           style={{
             borderRadius: '50%',
-            border: '1px solid #2fac66',
             marginBottom: 50,
           }}
           width={300}
@@ -37,7 +36,6 @@ export default async function handler() {
           alt="eric personal headshot"
           priority
         />
-        <p style={{}}>Eric's Portfolio Site!</p>
       </div>
     ),
     {
