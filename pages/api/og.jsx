@@ -41,7 +41,7 @@ export default async function handler() {
       </div>
     ),
     {
-      width: 700,
+      width: 1200,
       height: 630,
     }
   );
