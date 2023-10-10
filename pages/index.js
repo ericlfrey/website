@@ -13,7 +13,7 @@ export default function Home() {
         <title>Eric's Portfolio</title>
         <meta name="description" content="Eric's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:image" content="/images/asset.png" />
+        <meta property="og:image" content="http://www.ericlfrey.com/_next/image?url=%2Fimages%2Fasset.jpg&w=384&q=75" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
