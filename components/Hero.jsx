@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <Image
-        src="/images/profile.jpg"
+        src="/images/asset.jpg"
         className="profile-img"
         width={300}
         height={300}
