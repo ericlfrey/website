@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta property='og:image' content='http://www.ericlfrey.com/api/og' />
+        <meta name='image' property='og:image' content='http://www.ericlfrey.com/api/og' />
       </Head>
       <Layout>
         <Component {...pageProps} />
