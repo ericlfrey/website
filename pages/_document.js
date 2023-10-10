@@ -6,6 +6,7 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta name='image' property='og:image' content='http://www.ericlfrey.com/api/og' />
+        <meta name="title" property="og:title" content="Eric's Portfolio"></meta>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
