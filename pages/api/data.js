@@ -23,7 +23,7 @@ export const projectData = [
         title: 'HireFrame',
         description: 'HireFrame helps you track job prospects with a clear kanban-style board. Sort opportunities into Wishlist, Applied, Interview, Offer, and Rejected categories. Built with React Hooks, Next JS Routes, Google Firebase, and Bootstrap, Wireframe offers a streamlined experience to help organize your job search.',
         gitHubLink: 'https://github.com/ericlfrey/HireFrame/tree/main#readme',
-        loomLink: '#',
+        loomLink: '',
         deployedLink: 'http://hf.ericlfrey.com/',
         logoImg: '/images/hf-logo.png'
     },

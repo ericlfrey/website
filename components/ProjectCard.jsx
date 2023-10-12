@@ -37,9 +37,11 @@ export default function ProjectCard({
           <a href={deployedLink} target="_blank">
             <i className="fa-solid fa-link"></i>
           </a>
-          <a href={loomLink} target="_blank">
-            <i className="fa-solid fa-video"></i>
-          </a>
+          {loomLink === '' ? null : (
+            <a href={loomLink} target="_blank">
+              <i className="fa-solid fa-video"></i>
+            </a>
+          )}
           <a href={gitHubLink} target="_blank">
             <i className="fa-brands fa-github"></i>
           </a>
