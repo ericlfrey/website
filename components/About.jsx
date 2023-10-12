@@ -22,7 +22,7 @@ const About = () => {
             in touch via{' '}
             <strong>
               <a
-                href="https://github.com/ericlfrey"
+                href="https://www.linkedin.com/in/ericlfrey"
                 target="_blank"
                 style={{ color: '#2fac66' }}
               >
