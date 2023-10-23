@@ -16,9 +16,13 @@ const Navbar = () => {
           />
         </Link>
       </div>
+      <a href="./#about">About</a>
+      <a href="./#projects">Projects</a>
+      <a href="./#skills">Skills</a>
+      <a href="./#contact">Contact</a>
       <a
         href="https://www.canva.com/design/DAFU7pzn9IA/geB-AZ8qfF6QD8lW0ucS7g/view"
-        className="cta-btn"
+        // className="cta-btn"
         target="_blank"
       >
         Resume

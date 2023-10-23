@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <h2>Get In Touch</h2>
       <p>
         If you want to collaborate, have any questions, or just want to say

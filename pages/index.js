@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="title" property="og:title" content="Eric's Portfolio"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
+      <div className='main-container'>
         <Hero />
         <About />
         <Projects />
