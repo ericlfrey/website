@@ -41,7 +41,7 @@ const About = () => {
             knowledge.
           </p>
         </div>
-        <div className="about-img">
+        {/* <div className="about-img">
           <Image
             src="/images/bass.jpeg"
             className="profile-img"
@@ -56,7 +56,7 @@ const About = () => {
             height={100}
             alt="Rubber Duck and Friends"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

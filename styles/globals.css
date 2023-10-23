@@ -10,15 +10,26 @@ body {
   line-height: 1.5;
   background-color: #262627;
   color: #DADADB;
-  /* width: 70%;
-  margin: 0 auto;
-  padding: 0 0; */
+  background-image: url('/images/alabama.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main {
+  background-color: rgba(38, 38, 39, 0.7);
+  /* margin-top: 120px; */
 }
 
 .main-container {
   width: 70%;
   margin: 0 auto;
   padding: 0 0;
+  padding-top: 100px;
+  position: sticky;
+  top: 120px;
+  z-index: 5;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
@@ -31,6 +42,7 @@ body {
 a {
   text-decoration: none;
   color: #DADADB;
+  font-size: 1rem;
 }
 
 li {
@@ -43,15 +55,19 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5rem;
-  background-color: #262627;
-  position: sticky;
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  z-index: 999;
+  background: inherit;
   top: 0;
+  background-color: rgb(38, 38, 39);
 }
 
-.nav-container .logo {
+/* .nav-container .logo {
   font-size: 1.5rem;
   font-weight: bold;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .nav-container {
@@ -84,8 +100,9 @@ hr {
   border: none;
   background-color: #9B9C9D;
   height: 1px;
-  width: 80%;
-  margin: 0 auto;
+  /* width: 80%; */
+  margin: 0 auto 0;
+  background-color: rgba(38, 38, 39, 0.7);
 }
 
 @media screen and (max-width: 768px) {
@@ -99,7 +116,7 @@ hr {
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  background-color: #262627;
+  background-color: rgba(38, 38, 39, 0.7);
 }
 
 .footer-container p {
@@ -243,7 +260,7 @@ hr {
 
 /* Skills */
 .skills-container {
-  padding-top: 10rem;
+  padding: 10rem 0;
 }
 
 .skills-container h2 {
