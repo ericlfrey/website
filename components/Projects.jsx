@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <h2>Projects</h2>
       <div className="projects-grid">
         {projectData &&

@@ -5,6 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
+        <meta name='image' property='og:image' content='http://www.ericlfrey.com/_next/image?url=%2Fimages%2Fasset.jpg&w=640&q=75' />
+        <meta name="title" property="og:title" content="Eric's Portfolio"></meta>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"

@@ -3,7 +3,7 @@ import { skillsData } from '../pages/api/data';
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <h2>Skills</h2>
       <div className="grid-skills">
         {skillsData?.map(skill => (
