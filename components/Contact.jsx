@@ -10,7 +10,7 @@ const Contact = () => {
       <p>No spamming, please. Cheers!</p>
       <br />
       <a href="mailto:ericlfrey@gmail.com">
-        <p>EricLFrey@gmail.com</p>
+        <p style={{ color: 'dodgerBlue' }}>EricLFrey@gmail.com</p>
       </a>
     </div>
   );

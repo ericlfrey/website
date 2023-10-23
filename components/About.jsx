@@ -29,17 +29,15 @@ const About = () => {
         <p>
           Feel free to browse my repositories and don't hesitate to get in touch
           via{' '}
-          <u>
-            <strong>
-              <a
-                href="https://www.linkedin.com/in/ericlfrey"
-                target="_blank"
-                // style={{ color: 'blue' }}
-              >
-                LinkedIn
-              </a>{' '}
-            </strong>
-          </u>
+          <strong>
+            <a
+              href="https://www.linkedin.com/in/ericlfrey"
+              target="_blank"
+              style={{ color: 'dodgerBlue' }}
+            >
+              LinkedIn
+            </a>{' '}
+          </strong>
           if you want to discuss a project or just say hi!
         </p>
         {/* <div className="about-img">
