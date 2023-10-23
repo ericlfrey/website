@@ -20,16 +20,9 @@ const Navbar = () => {
       <a href="./#projects">Projects</a>
       <a href="./#skills">Skills</a>
       <a href="./#contact">Contact</a>
-      {/* <a
-        href="https://www.canva.com/design/DAFU7pzn9IA/geB-AZ8qfF6QD8lW0ucS7g/view"
-        // className="cta-btn"
-        target="_blank"
-      >
-        Resume
-      </a> */}
-      <div class="dropdown">
-        <button class="dropbtn">Resume</button>
-        <div class="dropdown-content">
+      <div className="dropdown">
+        <button className="dropbtn">Resume</button>
+        <div className="dropdown-content">
           <a
             href="https://www.canva.com/design/DAFU7pzn9IA/geB-AZ8qfF6QD8lW0ucS7g/view?website#2"
             target="_blank"

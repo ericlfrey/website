@@ -18,7 +18,6 @@ body {
 
 main {
   background-color: rgba(38, 38, 39, 0.7);
-  /* margin-top: 120px; */
 }
 
 .main-container {
@@ -45,10 +44,6 @@ a {
   font-size: 1rem;
 }
 
-/* li {
-  list-style: none;
-} */
-
 /* Navbar */
 .nav-container {
   display: flex;
@@ -66,12 +61,8 @@ a {
 
 .nav-container a:hover {
   color: whitesmoke;
+  transition: all 0.5s ease-in-out;
 }
-
-/* .nav-container .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-} */
 
 @media screen and (max-width: 768px) {
   .nav-container {
@@ -104,7 +95,6 @@ hr {
   border: none;
   background-color: #9B9C9D;
   height: 1px;
-  /* width: 80%; */
   margin: 0 auto 0;
   background-color: rgba(38, 38, 39, 0.7);
 }
@@ -157,8 +147,6 @@ hr {
 }
 
 .hero-container .profile-img {
-  /* width: 200px;
-  height: 200px; */
   border-radius: 50%;
   margin: 0 auto;
   object-fit: cover;
@@ -393,6 +381,9 @@ hr {
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
+  background-color: rgba(38, 38, 39, 0.7);
+  padding: 1.5rem;
+  border-radius: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -416,11 +407,6 @@ hr {
 
 /* Dropdown */
 .dropbtn {
-  /* background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none; */
   all: unset;
   font-size: 1rem;
 }
