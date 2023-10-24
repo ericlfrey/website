@@ -373,14 +373,19 @@ hr {
 }
 
 /* contact */
+.contact-wrapper {
+  padding-top: 20rem;
+}
+
 .contact-container {
-  padding: 10rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
+  /* margin-top: 20rem; */
+  margin-bottom: 20rem;
   background-color: rgba(38, 38, 39, 0.7);
   padding: 1.5rem;
   border-radius: 1rem;
