@@ -40,22 +40,6 @@ const About = () => {
           </strong>
           if you want to discuss a project or just say hi!
         </p>
-        {/* <div className="about-img">
-          <Image
-            src="/images/bass.jpeg"
-            className="profile-img"
-            width={300}
-            height={100}
-            alt="Eric Playing an upright bass"
-          />
-          <Image
-            src="/images/desktop.png"
-            className="profile-img"
-            width={300}
-            height={100}
-            alt="Rubber Duck and Friends"
-          />
-        </div> */}
       </div>
     </div>
   );
