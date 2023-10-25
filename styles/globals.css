@@ -34,7 +34,13 @@ main {
 @media screen and (max-width: 768px) {
   body {
     width: 100%;
-    padding: 0 2rem;
+
+  }
+
+  .main-container {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -245,9 +251,15 @@ hr {
 }
 
 .skills-container .grid-skills {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 2rem; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(108, 108, 108, 0.7);
+  padding: 1.5rem;
+  border-radius: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -257,7 +269,7 @@ hr {
 }
 
 .skills-container .grid-skills .skill-card {
-  background-color: #6c6c6c;
+  /* background-color: rgb(108, 108, 108);
   color: #1D1E20;
   display: flex;
   justify-content: center;
@@ -266,7 +278,8 @@ hr {
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; */
+  /* width: 10rem; */
 }
 
 /* Projects */
@@ -281,7 +294,9 @@ hr {
 }
 
 .projects-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
