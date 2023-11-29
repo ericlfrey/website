@@ -59,15 +59,15 @@ const Navbar = () => {
                 <button className="dropbtn">Resume</button>
                 <div className="dropdown-content">
                   <a
-                    href="https://www.canva.com/design/DAFU7pzn9IA/geB-AZ8qfF6QD8lW0ucS7g/view?website#2"
+                    href="https://www.canva.com/design/DAFyTAbbi-g/1YisEsFzOpjOc_gy-R1Pag/view?utm_content=DAFyTAbbi-g&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                     target="_blank"
                   >
                     View
                   </a>
                   <a
-                    href="/resume/ef-resume.pdf"
+                    href="/resume/eric-frey-resume.pdf"
                     target="_blank"
-                    download="ef-resume.pdf"
+                    download="eric-frey-resume.pdf"
                   >
                     Download
                   </a>
