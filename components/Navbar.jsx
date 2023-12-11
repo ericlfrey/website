@@ -59,7 +59,7 @@ const Navbar = () => {
                 <button className="dropbtn">Resume</button>
                 <div className="dropdown-content">
                   <a
-                    href="https://www.canva.com/design/DAFyTAbbi-g/1YisEsFzOpjOc_gy-R1Pag/view?utm_content=DAFyTAbbi-g&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                    href="https://www.canva.com/design/DAF1gLwJdQQ/j0Bk9xfJ2zOV8-W6a7QbGw/view?utm_content=DAF1gLwJdQQ&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                     target="_blank"
                   >
                     View
@@ -76,7 +76,7 @@ const Navbar = () => {
             </li>
             <li className="resume-li">
               <a
-                href="https://www.canva.com/design/DAFU7pzn9IA/geB-AZ8qfF6QD8lW0ucS7g/view?website#2"
+                href="https://www.canva.com/design/DAF1gLwJdQQ/j0Bk9xfJ2zOV8-W6a7QbGw/view?utm_content=DAF1gLwJdQQ&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                 target="_blank"
                 onClick={handleToggle}
               >
