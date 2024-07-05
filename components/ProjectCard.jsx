@@ -34,9 +34,11 @@ export default function ProjectCard({
           )}
         </div>
         <div className="project-card-links">
-          <a href={deployedLink} target="_blank">
-            <i className="fa-solid fa-link"></i>
-          </a>
+          {deployedLink === '' ? null : (
+            <a href={deployedLink} target="_blank">
+              <i className="fa-solid fa-link"></i>
+            </a>
+          )}
           {loomLink === '' ? null : (
             <a href={loomLink} target="_blank">
               <i className="fa-solid fa-video"></i>
